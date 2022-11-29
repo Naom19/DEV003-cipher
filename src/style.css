@@ -1,0 +1,53 @@
+
+body {
+    background: url(rainbowc.jpg);
+    background-size: 1366px 768px; 
+}
+/*Se eligió un fondo de pantalla pensado en las personas usuarias finales*/
+
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 0 0 15px white;
+}
+
+/*div {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 100px;
+    width: 100px;
+    display:flex;
+}   Box model*/
+
+/*.box {
+    width: 60px;
+    height: 100px;
+    margin: 5px;
+    padding: 25px;
+    border: 2px solid white;
+
+    p1{
+    
+    text-align: center;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    }
+}*/
+
+
+p2{
+    text-align: center;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
