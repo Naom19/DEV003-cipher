@@ -1,5 +1,5 @@
 const cipher = {
-  
+
   cipher.encode(offset, message) {
     console.log('entre funcion cipher')
     let result= "";
@@ -7,8 +7,8 @@ const cipher = {
     let upperLetter =message.toUpperCase();
 
     for (let i=0; i < upperLetter.lenght; i++) {
-      let messageAscci= upperLetter.charCodeAt(i);
-      let newText= ((messageAscci - 65 + offset) %26) + 65;
+      let messageAscii= upperLetter.charCodeAt(i);
+      let newText= ((messageAscii - 65 + offset) %26) + 65;
       result += String.fromCharCode(newText);
     }
     return result;
