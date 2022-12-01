@@ -1,4 +1,4 @@
-
+/*Comentarios en CSS*/
 body {
     background: url(rainbowc.jpg);
     background-size: 1366px 768px; 
@@ -7,10 +7,42 @@ body {
 
 
 h1{
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.527);
     text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
     font-family: "Sofia", sans-serif;
-    text-shadow: 0 0 15px white;
+}
+
+p1{
+    text-align: center;
+    text-align: justify;
+    font-style: italic;
+    color: black;
+    font-size: 22px;
+}
+
+p2{
+    text-align: center;
+    text-align: justify;
+    font-style: italic;
+    color: black;
+    font-size: 22px;
+}
+
+.app-container {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: aliceblue;
 }
 
 /*div {
@@ -27,27 +59,13 @@ h1{
     margin: 5px;
     padding: 25px;
     border: 2px solid white;
-
-    p1{
-    
-    text-align: center;
-    text-align: justify;
-    font-family: Helvetica, sans-serif;
-    color: black;
-    }
 }*/
 
 
-p2{
-    text-align: center;
-    text-align: justify;
-    font-family: Helvetica, sans-serif;
-    color: black;
-}
-
-#app-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-}
+/* modificaciones al botón de encriptar que le quitaban funcionalidad
+ #encrypt {
+    background-color: rgba(233, 133, 66, 0.836);
+    font-size: 12px;
+    height: 15px;
+    width: 100px;
+} */

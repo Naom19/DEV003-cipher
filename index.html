@@ -5,34 +5,39 @@
     <title>Project-Proyecto</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="cipher.js"></script>
   </head>
-  
    <body>
-
+    
     <div id="root">
      
-     <div class="container">
+     <div class="container" id="titleContainer">
       <h1>Encrypt your text with Cesar Cipher / Encripta tu texto con Cesar Cipher </h1>
       </div class= "app-container">
-      <p1><strong>Do you want to sexting with your partner, talk about diversity or something private with your friends but you are afraid that someone can read the conversations? Feel free to use our website to encrypt your text before send it on your phone, you can use different numbers to encrypt.</strong></p1>
-      <br />
-      <p2><strong>¿Quieres tener sexting con tu pareja, hablar de diversidad o algo privado con tus amistades pero tienes miedo de que alguien más pueda leer tus conversaciones? Siéntete libre de usar nuestro sitio web para encriptar antes de enviar un mensaje por tu teléfono celular, puedes probar con diferentes números para encriptar.</strong></p2>
-      <br /><br />
+      <section id="introduction"> 
+        <p1><strong>Do you want to sexting with your partner, talk about diversity or something private with your friends but you are afraid that someone can read the conversations? Feel free to use our website to encrypt your text before send it on your phone, you can use different numbers to encrypt.</strong></p1><br>
+        <p2><strong>¿Quieres tener sexting con tu pareja, hablar de diversidad o algo privado con tus amistades pero tienes miedo de que alguien más pueda leer tus conversaciones? Siéntete libre de usar nuestro sitio web para encriptar antes de enviar un mensaje por tu teléfono celular, puedes probar con diferentes números para encriptar.</strong></p2><br>  
+      </section>
+      
+      <!--Título y descripción en inglés (p1) y español (p2)-->
       <form>
-       <input type="text" id="message" placeholder="Message / Mensaje">
+       <input type="text" id="message" placeholder="Text message / Mensaje de texto">
+
+       <!--Otra manera para intentarlo es con: <input type="submit" value="" placeholder="SUBMIT">-->
       </form>
-      <br />
+      <br>
+      
+      <p>
+       <button id="encrypt" onclick="cipher()">Encrypt / Encriptar 🔒</button>
 
-       <button id="encrypt">Encrypt / Encriptar</button>
+       <input id="offset" type="number" placeholder="Numbers/Números">
 
-       <input id="key" type="text" placeholder="Numbers/Números">
-
-       <button id="decrypt">Decrypt / Desencriptar</button>
+       <button id="decrypt">Decrypt / Desencriptar 🔑</button>
+      </p>
+       
        
      </div>
     </div>
-    <script src="index.js" type="module"></script>
-
     </body>
   
 </html>
