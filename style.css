@@ -4,68 +4,63 @@ body {
     background-size: 1366px 768px; 
 }
 /*Se eligió un fondo de pantalla pensado en las personas usuarias finales*/
-
-
 h1{
-    margin: 50px;
-    background-color: rgba(255, 255, 255, 0.527);
-    text-align: center;
-    height: 120px;
     display: flex;
+    margin: 30px;
+    height: 100px;
     align-items: center;
     justify-content: center;
     color: black;
     font-family: "Sofia", sans-serif;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: 2px;
+    border-radius: 8px;
 }
 
-p1{
-    text-align: center;
-    text-align: justify;
-    font-style: italic;
-    color: black;
-    font-size: 22px;
-}
-
-p2{
-    text-align: center;
-    text-align: justify;
-    font-style: italic;
-    color: black;
-    font-size: 22px;
-}
-
-.app-container {
-    height: 100px;
-    width: 100px;
-    margin: 20px;
+#introduction{
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+    font-style: italic;
+    color: black;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.498);
+    border: 2px;
+    border-radius: 8px;
 }
 
-/*div {
-    border: 1px solid white;
-    background-color: transparent;
-    padding: 100px;
-    width: 100px;
-    display:flex;
-}   Box model*/
+#engIntro{
+    padding: 15px;
+    /*background-color: rgba(248, 178, 178, 0.553);*/
+    border: 2px;
+    border-radius: 8px;
+}
 
-/*.box {
-    width: 60px;
+#spIntro{
+    padding: 15px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     height: 100px;
-    margin: 5px;
+    margin: 10px;
     padding: 25px;
-    border: 2px solid white;
-}*/
+    border: 2px;
+    border-radius: 8px;
+}
 
+#functionButtons {
+    display:flex; 
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px;
+    border-radius: 12px;
+}
 
-/* modificaciones al botón de encriptar que le quitaban funcionalidad
- #encrypt {
-    background-color: rgba(233, 133, 66, 0.836);
-    font-size: 12px;
-    height: 15px;
-    width: 100px;
-} */
